@@ -37,7 +37,7 @@
                 <div id="product-carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner border">
                         <div  class="carousel-item active">
-                            <img style="border: groove; margin-left: 280px;" class="w-50 h-50" src="admin/hinhanh/<?php echo $result_chitiet['Anhsanpham'] ?>" alt="Image">
+                            <img style="border: groove; margin-left: 280px;" class="w-50 h-50" src="Admin/hinhanh/<?php echo $result_chitiet['Anhsanpham'] ?>" alt="Image">
                         </div>
                     </div>
                 </div>
