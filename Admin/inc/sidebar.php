@@ -35,7 +35,7 @@
                             <div class="collapse" id="collapseLayout" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="them_loaisp.php">Add Product Category</a>
-                                    <a class="nav-link" href="lietke_loaisp.php">List Product Category</a>
+                                    <a class="nav-link" href="Lietke_loaisp.php">List Product Category</a>
                                 </nav>
                             </div>
 
@@ -48,7 +48,7 @@
                             <div class="collapse" id="collapseLayout1" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="them_thuonghieu.php">Add Brand</a>
-                                    <a class="nav-link" href="Lietke_thuonghieu.php">List Brand</a>
+                                    <a class="nav-link" href="lietke_thuonghieu.php">List Brand</a>
                                 </nav>
                             </div>
 
@@ -75,7 +75,7 @@
                             <div class="collapse" id="collapseLayout3" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="them_dm_tintuc.php">Add News Category</a>
-                                    <a class="nav-link" href="lietke_dm_tintuc.php">List News Category</a>
+                                    <a class="nav-link" href="Lietke_dm_tintuc.php">List News Category</a>
                                 </nav>
                             </div>
 

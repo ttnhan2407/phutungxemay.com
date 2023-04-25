@@ -21,7 +21,7 @@
                                 <div class="card bg-primary text-white mb-4">
                                     <div class="card-body">Manage Brand</div>
                                     <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link" href="Lietke_thuonghieu.php">View Details</a>
+                                        <a class="small text-white stretched-link" href="lietke_thuonghieu.php">View Details</a>
                                         <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                     </div>
                                 </div>
@@ -48,7 +48,7 @@
                                 <div class="card bg-danger text-white mb-4">
                                     <div class="card-body">Manage Product Category</div>
                                     <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link" href="lietke_loaisp.php">View Details</a>
+                                        <a class="small text-white stretched-link" href="Lietke_loaisp.php">View Details</a>
                                         <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                     </div>
                                 </div>

@@ -1,6 +1,6 @@
 <?php 
 
-$connect = mysqli_connect("localhost", "root", "", "db_phutungxemay");
+$connect = mysqli_connect("us-cdbr-east-06.cleardb.net", "ba171451cb3d01", "869ce5b5", "heroku_4bff5e7480a2930");
 $query = "SELECT * FROM bang_dathang";
 $result = mysqli_query($connect, $query);
 $chart_data = '';
