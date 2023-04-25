@@ -38,7 +38,7 @@
                         <tr>
                             <td class="align-middle"><?php echo $i; ?></td>
                             <td class="align-middle"><?php echo $result['Tensp'] ?></td
-                            ><td class="align-middle"><img width="100" src="admin/hinhanh/<?php echo $result['Anhsanpham'] ?>" alt=""/></td>
+                            ><td class="align-middle"><img width="100" src="Admin/hinhanh/<?php echo $result['Anhsanpham'] ?>" alt=""/></td>
                             <td class="align-middle"><?php echo $fm->format_currency($result['Giaban'])." "."VNĐ" ?></td>
                             <td class="align-middle"><a onclick = "return confirm('Do you want to delete the product?')" href="?proid=<?php echo $result['Idsanpham'] ?>" >
                             <i class="fa fa-trash text-danger" style="font-size: 15px;"></i>

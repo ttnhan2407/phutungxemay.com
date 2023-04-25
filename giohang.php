@@ -58,7 +58,7 @@
                         
                         <tr>
                             <td class="align-middle"><?php echo $fm->textShorten($result['Tensp'], 15) ?></td>
-                            <td><img width="80" src="admin/hinhanh/<?php echo $result['Anhsanpham'] ?>" alt=""/></td>
+                            <td><img width="80" src="Admin/hinhanh/<?php echo $result['Anhsanpham'] ?>" alt=""/></td>
                             <td class="align-middle"><?php echo $fm->format_currency($result['Giaban'])." "."VNĐ" ?></td>
                             <td class="align-middle">
                             <form action="" method="post">

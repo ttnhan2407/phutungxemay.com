@@ -57,7 +57,7 @@
                             </td>
 
                             <td class="align-middle">
-                                <img width="80" src="admin/hinhanh/<?php echo $result['Anhsanpham'] ?>" alt=""/>
+                                <img width="80" src="Admin/hinhanh/<?php echo $result['Anhsanpham'] ?>" alt=""/>
                             </td>
 
                             <td class="align-middle">
