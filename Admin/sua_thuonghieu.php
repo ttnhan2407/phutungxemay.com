@@ -44,7 +44,7 @@
                                 </div>
                                 <hr>
                                 <button type="submit" name="submit" class="btn btn-info">Update</button>
-                                 <a style="background: red" class="btn btn-info" href="Lietke_thuonghieu.php">Cancel</a>
+                                 <a style="background: red" class="btn btn-info" href="lietke_thuonghieu.php">Cancel</a>
                                 </form>
                                 <?php
                                 }

@@ -49,7 +49,7 @@
 
                                 <hr>
                                 <button type="submit" name="submit" class="btn btn-info">ADD</button>
-                                <a style="background: red" class="btn btn-info" href="lietke_dm_tintuc.php">Cancel</a>
+                                <a style="background: red" class="btn btn-info" href="Lietke_dm_tintuc.php">Cancel</a>
                                 </form>
                             </div>
                         </div>
