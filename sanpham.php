@@ -87,7 +87,7 @@
                         $i = 1;
                         echo '<div class="col-12 pb-1"></div>';
                         for($i=1;$i<=$sanpham_button;$i++){
-                           // echo '<a href="index.php?trang='.$i.'">'.$i.'</a>';
+                           
                             echo '
                                     
                                     

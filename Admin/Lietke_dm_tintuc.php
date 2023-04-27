@@ -8,7 +8,6 @@
         $xoa_danhmuc = $tt->xoa_dm_tintuc($id);
     }
 ?>
-
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
@@ -16,14 +15,11 @@
                             <div class="card-header">
                                 <h6 class="m-0 font-weight-bold text-primary">List News Category </h6>
                             </div>
-                            
                             <div class="card-body">
                             <?php
-
                                     if(isset($xoa_danhmuc)){
                                         echo $xoa_danhmuc;
                                     }
-
                             ?>  
                             <table class="table table-hover table-bordered">
                                     <thead class="bill-header cs">
@@ -42,7 +38,6 @@
                                                 $i = 0;
                                                 while($result = $show_loaisp->fetch_assoc()){
                                                     $i++;
-                            
                                         ?>
                                         <tr>
                                             <td><?php echo $i; ?></td>
@@ -61,21 +56,16 @@
                                                 }
                                                 ?>
                                             </td>
-                        
                                             <td>
                                                 <a onclick = "return confirm('Want to delete?')" href="?xoadanhmuc=<?php echo $result['Iddanhmuc'] ?>" >
                                                     <i class="fa fa-trash" style="font-size: 15px;"></i>
                                                 </a>
-          
-                                                &middot;
-                                                                                               
+                                                &middot;                                           
                                                 <a href="sua_dm_tintuc.php?id_danhmuc=<?php echo $result['Iddanhmuc'] ?>">
                                                     <i  class="far fa-edit" style="font-size: 15px;"></i>
                                                </a>
                                             </td>
-                                            
                                         </tr>
-                                            
                                             <?php
                                         }
                                             }

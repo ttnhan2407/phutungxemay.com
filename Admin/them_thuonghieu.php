@@ -5,7 +5,6 @@
     $brand = new thuonghieu();
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $Tenthuonghieu = $_POST['Tenthuonghieu'];
-       
         $Tenthuonghieu = $brand->them_thuonghieusp($Tenthuonghieu);
         
     }
@@ -26,8 +25,8 @@
                             <div class="card-body">
                                 <form style="color: black;" role="form" action="them_thuonghieu.php" method="post" enctype="multipart/form-data">
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Name Brand</label>
-                                    <input type="text" name="Tenthuonghieu" class="form-control" id="exampleInputEmail1">
+                                    <label for="">Name Brand</label>
+                                    <input type="text" name="Tenthuonghieu" class="form-control" id="">
                                 </div>
                                 <hr>
                                 <button type="submit" name="submit" class="btn btn-info">ADD</button>

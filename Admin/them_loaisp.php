@@ -5,13 +5,9 @@
     $cat = new loaisanpham();
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $Tenloai = $_POST['Tenloai'];
-       
         $insertCat = $cat->them_loaisp($Tenloai);
-        
     }
 ?>
-     
-
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
@@ -25,7 +21,6 @@
                                     }
                             ?>
                             <div class="card-body">
-                                
                                 <form style="color: black;" role="form" action="them_loaisp.php" method="post" enctype="multipart/form-data">
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Name Category</label>

@@ -31,7 +31,6 @@
                                 echo $delete_slider;
                             }
                             ?> 
-                                
                                 <table class="table table-hover table-bordered">
                                 <thead class="bill-header cs">
                                     <tr>
@@ -51,8 +50,6 @@
                                             while($result_slider = $get_slider->fetch_assoc()){
                                                 $i++;
                                             ?>
-                                    
-                                
                                     <tr>
                                         <td><?php echo $i; ?></td>
                                         <td><?php echo $result_slider['Tenslider'] ?></td>
@@ -85,8 +82,6 @@
                                                 <a href="sua_slider.php?suaslider=<?php echo $result_slider['Idslider'] ?>">
                                                     <i  class="far fa-edit" style="font-size: 15px;"></i>
                                                </a>
-          
-                                              
                                         </td>
                                     </tr>
                                         <?php
