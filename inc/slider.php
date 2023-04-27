@@ -64,7 +64,7 @@
                                     
                             ?>
 
-                            <a href="Lienhe.php" class="nav-item nav-link">Contact</a>
+                            <a href="lienhe.php" class="nav-item nav-link">Contact</a>
                             <!-- Tin tức -->
 
                             <div class="nav-item dropdown">

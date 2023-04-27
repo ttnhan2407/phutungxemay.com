@@ -18,14 +18,14 @@
                             <a class="text-dark mb-2" href="index.php"><i class="fa fa-angle-right mr-2"></i>Home Page</a>
                             <a class="text-dark mb-2" href="sanpham.php"><i class="fa fa-angle-right mr-2"></i>Product</a>
                             <a class="text-dark mb-2" href="thanhtoan.php"><i class="fa fa-angle-right mr-2"></i>Checkout</a>
-                            <a class="text-dark" href="Lienhe.php"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                            <a class="text-dark" href="lienhe.php"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
                         </div>
                     </div>
                     <div class="col-md-4 mb-5">
                         <h5 class="font-weight-bold text-dark mb-4">FAST ACCESS</h5>
                         <div class="d-flex flex-column justify-content-start">
                             <a class="text-dark mb-2" href="tintuc.php"><i class="fa fa-angle-right mr-2"></i>News</a>
-                            <a class="text-dark mb-2" href="Lienhe.php"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                            <a class="text-dark mb-2" href="lienhe.php"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
                             <a class="text-dark mb-2" href="sanpham.php"><i class="fa fa-angle-right mr-2"></i>Shop Detail</a>
                             <a class="text-dark mb-2" href="giohang.php"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
                         </div>
