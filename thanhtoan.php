@@ -160,20 +160,6 @@
                     <div class="card-header bg-secondary border-0">
                         <h4 class="font-weight-semi-bold m-0">Payment Methods</h4>
                     </div>
-                    <div class="card-body">
-                        <div class="form-group">
-                            <div class="custom-control custom-radio">
-                                <input type="radio" class="custom-control-input" name="redirect" id="redirect">
-                                <label class="custom-control-label" for="redirect">ATM</label>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="custom-control custom-radio">
-                                <input type="radio" class="custom-control-input" name="payment" id="directcheck">
-                                <label class="custom-control-label" for="directcheck">Payment on delivery</label>
-                            </div>
-                        </div>
-                    </div>
                     <div class="card-footer border-secondary bg-transparent">
                         <center>
                             <a  class="btn btn-primary px-3" style="border: groove;" href="?orderid=order">Order</a>
