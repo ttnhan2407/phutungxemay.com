@@ -13,12 +13,12 @@
        $Idkhachhang = Session::get('customer_id');
        $insertOrder = $gh->dat_hang($Idkhachhang);
         $delCart = $gh->xoa_dulieu_giohang();
-        echo "<script> window.location ='muahang_thanhcongoff.php'</script>";
+        echo "<script> window.location ='muahang_thanhcong.php'</script>";
     }
  
 ?>
 <!-- Checkout Start -->
-<form action="vnpay.php" method="POST">
+<form action="" method="POST">
     <div class="container-fluid pt-5">
         <div class="row px-xl-5">
             <div class="col-lg-4">
@@ -157,17 +157,29 @@
                     
                 </div>
                 <div class="card border-secondary mb-5">
-                    <div class="card border-secondary mb-5">
                     <div class="card-header bg-secondary border-0">
                         <h4 class="font-weight-semi-bold m-0">Payment Methods</h4>
                     </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" name="payment" id="paypal">
+                                <label class="custom-control-label" for="paypal">ATM</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" name="payment" id="directcheck">
+                                <label class="custom-control-label" for="directcheck">Payment on delivery</label>
+                            </div>
+                        </div>
+                    </div>
                     <div class="card-footer border-secondary bg-transparent">
                         <center>
-                            <a  class="btn btn-primary px-3" style="border: groove;" href="?orderid=order">COD</a>
-                            <a  class="btn btn-primary px-3" style="border: groove;" href="thanhtoanonline.php">Payment with VNPAY</a>
+                            <a  class="btn btn-primary px-3" style="border: groove;" href="?orderid=order">Order</a>
                         </center>
+                
                     </div>
-
                 </div>
             </div>
         </div>
@@ -175,8 +187,3 @@
     </form>
     <!-- Checkout End -->
     <?php include 'inc/footer.php';?>
-
-
-
-
-    

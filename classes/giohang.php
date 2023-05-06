@@ -100,32 +100,12 @@
 		//xóa khi đăng xuất
 		public function xoa_dulieu_giohang(){
 			$Idgiaodich = session_id();
-			$query = "DELETE * FROM bang_giohang WHERE Idgiaodich = '$Idgiaodich'";
+			$query = "DELETE FROM bang_giohang WHERE Idgiaodich = '$Idgiaodich'";
 			$result = $this->db->select($query);
 			return $result;
 		}
-
-
 		//Đặt hàng
 		public function dat_hang($Idkhachhang){
-			$Idgiaodich = session_id();
-			$query = "SELECT * FROM bang_giohang WHERE Idgiaodich = '$Idgiaodich'";
-			$get_product = $this->db->select($query);
-			if($get_product){
-				while($result = $get_product->fetch_assoc()){
-					$Idsanpham = $result['Idsanpham'];
-					$Tensp = $result['Tensp'];
-					$Soluong = $result['Soluong'];
-					$Giaban = $result['Giaban'] * $Soluong;
-					$Anhsanpham = $result['Anhsanpham'];
-					$Idkhachhang = $Idkhachhang;
-					$query_order = "INSERT INTO bang_dathang(Idsanpham,Tensp,Soluong,Giaban,Anhsanpham,Idkhachhang) VALUES('$Idsanpham','$Tensp','$Soluong','$Giaban','$Anhsanpham','$Idkhachhang')";
-					$insert_order = $this->db->insert($query_order);
-				}
-			}
-		}
-		//Đặt hàng online
-		public function dat_hangonline($Idkhachhang){
 			$Idgiaodich = session_id();
 			$query = "SELECT * FROM bang_giohang WHERE Idgiaodich = '$Idgiaodich'";
 			$get_product = $this->db->select($query);
