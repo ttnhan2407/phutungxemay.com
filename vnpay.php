@@ -2,7 +2,7 @@
 $vnp_TmnCode = "GI9HCEAU"; //Mã định danh merchant kết nối (Terminal Id)
 $vnp_HashSecret = "TDLSUCIHTXFTBNGQHHHBOPOWHZTTCWUZ"; //Secret key
 $vnp_Url = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-$vnp_Returnurl = "https://app-phutungxemay.herokuapp.com/muahang_thanhcongonline.php";
+$vnp_Returnurl = "https://app-phutungxemay.herokuapp.com/muahang_thanhcong.php";
 $vnp_apiUrl = "http://sandbox.vnpayment.vn/merchant_webapi/merchant.html";
 $apiUrl = "https://sandbox.vnpayment.vn/merchant_webapi/api/transaction";
 //Config input format
