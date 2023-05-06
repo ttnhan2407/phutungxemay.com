@@ -18,7 +18,7 @@
  
 ?>
 <!-- Checkout Start -->
-<form action="" method="POST">
+<form action="vnpay.php" method="POST">
     <div class="container-fluid pt-5">
         <div class="row px-xl-5">
             <div class="col-lg-4">
@@ -157,6 +157,7 @@
                     
                 </div>
                 <div class="card border-secondary mb-5">
+                    <div class="card border-secondary mb-5">
                     <div class="card-header bg-secondary border-0">
                         <h4 class="font-weight-semi-bold m-0">Payment Methods</h4>
                     </div>
@@ -166,6 +167,7 @@
                             <a  class="btn btn-primary px-3" style="border: groove;" href="thanhtoanonline.php">Payment with VNPAY</a>
                         </center>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -173,3 +175,8 @@
     </form>
     <!-- Checkout End -->
     <?php include 'inc/footer.php';?>
+
+
+
+
+    
