@@ -191,9 +191,11 @@
                     </div>
                     <div class="card-footer border-secondary bg-transparent">
                         <center>
+                        
                         <form action="vnpay.php" method="POST">
                             <input type="hidden" name="total_paymentgateways" value="<?php echo $gtotal ?>"></input>
                             <button onclick="window.location='?orderid=order'" class="btn btn-primary px-3" name="payment" id="paypal">Payment with VNPAY</button>
+                            
                          </form>
                         </center>
 				<p></p>
