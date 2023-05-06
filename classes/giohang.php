@@ -122,6 +122,24 @@
 				}
 			}
 		}
+		//Đặt hàng online
+		public function dat_hangonline($Idkhachhang){
+			$Idgiaodich = session_id();
+			$query = "SELECT * FROM bang_giohang WHERE Idgiaodich = '$Idgiaodich'";
+			$get_product = $this->db->select($query);
+			if($get_product){
+				while($result = $get_product->fetch_assoc()){
+					$Idsanpham = $result['Idsanpham'];
+					$Tensp = $result['Tensp'];
+					$Soluong = $result['Soluong'];
+					$Giaban = $result['Giaban'] * $Soluong;
+					$Anhsanpham = $result['Anhsanpham'];
+					$Idkhachhang = $Idkhachhang;
+					$query_order = "INSERT INTO bang_dathang(Idsanpham,Tensp,Soluong,Giaban,Anhsanpham,Idkhachhang) VALUES('$Idsanpham','$Tensp','$Soluong','$Giaban','$Anhsanpham','$Idkhachhang')";
+					$insert_order = $this->db->insert($query_order);
+				}
+			}
+		}
 
 		//tổng số tiền của đơn hàng
 		public function so_tien($Idkhachhang){

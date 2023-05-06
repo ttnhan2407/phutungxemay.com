@@ -12,6 +12,7 @@
     if(isset($_GET['orderid']) && $_GET['orderid']=='order'){
        $Idkhachhang = Session::get('customer_id');
        $insertOrder = $gh->dat_hang($Idkhachhang);
+       $insertOrder = $gh->dat_hangonline($Idkhachhang);
         $delCart = $gh->xoa_dulieu_giohang();
         echo "<script> window.location ='muahang_thanhcong.php'</script>";
     }
