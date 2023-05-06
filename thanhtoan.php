@@ -161,9 +161,10 @@
                         <h4 class="font-weight-semi-bold m-0">Payment Methods</h4>
                     </div>
                     <div class="card-footer border-secondary bg-transparent">
-                        <center>
+                        
                             <a  class="btn btn-primary px-3" style="border: groove;" href="?orderid=order">COD</a>
-                        </center>
+                            <a  class="btn btn-primary px-3" style="border: groove;" href="thanhtoanonline.php">Payment with VNPAY</a>
+                        
                 
                     </div>
 
