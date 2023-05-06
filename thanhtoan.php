@@ -163,8 +163,8 @@
                     <div class="card-body">
                         <div class="form-group">
                             <div class="custom-control custom-radio">
-                                <input type="radio" class="custom-control-input" name="payment" id="paypal">
-                                <label class="custom-control-label" for="paypal">ATM</label>
+                                <input type="radio" class="custom-control-input" name="redirect" id="redirect">
+                                <label class="custom-control-label" for="redirect">ATM</label>
                             </div>
                         </div>
                         <div class="form-group">
