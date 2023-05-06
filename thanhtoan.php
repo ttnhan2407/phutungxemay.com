@@ -177,10 +177,11 @@
                     <div class="card-footer border-secondary bg-transparent">
                         <center>
                             <a  class="btn btn-primary px-3" style="border: groove;" href="?orderid=order">Order</a>
-                            <a  class="btn btn-primary px-3" style="border: groove;" href="thanhtoan_onl.php">Payment with VNPAY</a>
-                        </center>
+                            <input type="hidden" name="total_paymentgateways" value="<?php echo $gtotal ?>"></input>
+                    <button onclick="window.location='?orderid=order'" class="btn btn-primary px-3" style="border: groove;" name="redirect" id="redirect">Payment with VNPAY</button>                        </center>
                 
                     </div>
+                    
                 </div>
             </div>
         </div>
