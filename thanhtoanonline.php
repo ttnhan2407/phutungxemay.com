@@ -13,7 +13,7 @@
        $Idkhachhang = Session::get('customer_id');
        $insertOrder = $gh->dat_hangonline($Idkhachhang);
         $delCart = $gh->xoa_dulieu_giohang();
-        echo "<script> window.location ='muahang_thanhcong.php'</script>";
+        echo "<script> window.location ='muahang_thanhcongonline.php'</script>";
     }
  
 ?>
