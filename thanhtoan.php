@@ -161,12 +161,7 @@
                         <h4 class="font-weight-semi-bold m-0">Payment Methods</h4>
                     </div>
                     <div class="card-body">
-                        <div class="form-group">
-                            <div class="custom-control custom-radio">
-                                <input type="radio" class="custom-control-input" name="payment" id="paypal">
-                                <label class="custom-control-label" for="paypal">ATM</label>
-                            </div>
-                        </div>
+                        
                         <div class="form-group">
                             <div class="custom-control custom-radio">
                                 <input type="radio" class="custom-control-input" name="payment" id="directcheck">
@@ -180,6 +175,27 @@
                         </center>
                 
                     </div>
+
+                    <div class="card border-secondary mb-5">
+                    <div class="card-header bg-secondary border-0">
+                        <h4 class="font-weight-semi-bold m-0">Payment Methods</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" name="payment" id="paypal">
+                                <label class="custom-control-label" for="paypal">ATM</label>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="card-footer border-secondary bg-transparent">
+                        <center>
+                            <a  class="btn btn-primary px-3" style="border: groove;" href="vnpay.php">Order</a>
+                        </center>
+                
+                    </div>
+
                 </div>
             </div>
         </div>
