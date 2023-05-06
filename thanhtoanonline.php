@@ -164,7 +164,7 @@
                     <div class="card-footer border-secondary bg-transparent">
                     <center>
                     <input type="hidden" name="total_paymentgateways" value="<?php echo $gtotal ?>"></input>
-                    <button onclick="window.location='?orderid=order'" class="btn btn-primary px-3" name="redirect" id="redirect">Payment with VNPAY</button>
+                    <button onclick="window.location='?orderid=order'" class="btn btn-primary px-3" style="border: groove;" name="redirect" id="redirect">Payment with VNPAY</button>
                     </center>
                 
                     </div>
