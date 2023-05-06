@@ -11,14 +11,14 @@
 
     if(isset($_GET['orderid']) && $_GET['orderid']=='order'){
        $Idkhachhang = Session::get('customer_id');
-       $insertOrder = $gh->dat_hang($Idkhachhang);
+       $insertOrder = $gh->dat_hangonline($Idkhachhang);
         $delCart = $gh->xoa_dulieu_giohang();
         echo "<script> window.location ='muahang_thanhcong.php'</script>";
     }
  
 ?>
 <!-- Checkout Start -->
-<form action="" method="POST">
+<form action="vnpay.php" method="POST">
     <div class="container-fluid pt-5">
         <div class="row px-xl-5">
             <div class="col-lg-4">
@@ -157,24 +157,15 @@
                     
                 </div>
                 <div class="card border-secondary mb-5">
-                    <div class="card-header bg-secondary border-0">
-                        <h4 class="font-weight-semi-bold m-0">Payment Methods</h4>
-                    </div>
-                    <div class="card-footer border-secondary bg-transparent">
-                        <center>
-                            <a  class="btn btn-primary px-3" style="border: groove;" href="?orderid=order">COD</a>
-                        </center>
-                
-                    </div>
-
                     <div class="card border-secondary mb-5">
                     <div class="card-header bg-secondary border-0">
                         <h4 class="font-weight-semi-bold m-0">Payment Methods</h4>
                     </div>
                     <div class="card-footer border-secondary bg-transparent">
-                        <center>
-                            <a  class="btn btn-primary px-3" style="border: groove;" href="thanhtoanonline.php">Payment with VNPAY</a>
-                        </center>
+
+                    <input type="hidden" name="total_paymentgateways" value="<?php echo $gtotal ?>"></input>
+                    <button onclick="window.location='?orderid=order'" class="btn btn-success" name="redirect" id="redirect">Payment with VNPAY</button>
+
                 
                     </div>
 
