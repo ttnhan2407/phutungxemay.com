@@ -104,6 +104,15 @@
 			$result = $this->db->select($query);
 			return $result;
 		}
+
+		//xóa khi đăng xuất
+		public function xoa_dulieu_giohangonline(){
+			$Idgiaodich = session_id();
+			$query = "DELETE FROM bang_giohang WHERE Idgiaodich = '$Idgiaodich'";
+			$result = $this->db->select($query);
+			return $result;
+		}
+
 		//Đặt hàng
 		public function dat_hang($Idkhachhang){
 			$Idgiaodich = session_id();
