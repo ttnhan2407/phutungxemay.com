@@ -183,8 +183,8 @@
                     <div class="card-body">
                         <div class="form-group">
                             <div class="custom-control custom-radio">
-                                <input type="radio" class="custom-control-input" name="redirect" id="redirect">
-                                <label class="custom-control-label" for="redirect">ATM</label>
+                                <input type="radio" class="custom-control-input" name="payment" id="paypal">
+                                <label class="custom-control-label" for="paypal">ATM</label>
                             </div>
                         </div>
                        
@@ -193,7 +193,7 @@
                         <center>
                         <form action="vnpay.php" method="POST">
                             <input type="hidden" name="total_paymentgateways" value="<?php echo $gtotal ?>"></input>
-                            <button onclick="window.location='?orderid=order'" class="btn btn-primary px-3" name="redirect" id="redirect">Payment with VNPAY</button>
+                            <button onclick="window.location='?orderid=order'" class="btn btn-primary px-3" name="payment" id="paypal">Payment with VNPAY</button>
                          </form>
                         </center>
 				<p></p>
