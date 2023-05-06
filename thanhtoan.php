@@ -177,7 +177,7 @@
                     <div class="card-footer border-secondary bg-transparent">
                         <center>
                             <a  class="btn btn-primary px-3" style="border: groove;" href="?orderid=order">Order</a>
-                            <a  class="btn btn-primary px-3" style="border: groove;" href="thanhtoanonline.php">Payment with VNPAY</a>
+                            <a  class="btn btn-primary px-3" style="border: groove;" href="thanhtoan_onl.php">Payment with VNPAY</a>
                         </center>
                 
                     </div>
