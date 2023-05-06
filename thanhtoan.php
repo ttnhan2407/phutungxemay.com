@@ -190,9 +190,14 @@
                        
                     </div>
                     <div class="card-footer border-secondary bg-transparent">
-                        <center>
-                            <a  class="btn btn-primary px-3" style="border: groove;" href="vnpay.php">Order</a>
-                        </center>
+                        
+
+                        <form action="vnpay.php" method="POST">
+                    <input type="hidden" name="total_paymentgateways" value="<?php echo $gtotal ?>"></input>
+                <button onclick="window.location='?orderid=order'" class="btn btn-success" name="redirect" id="redirect">Payment with VNPAY</button>
+                </form>
+				<p></p>
+
                 
                     </div>
 
