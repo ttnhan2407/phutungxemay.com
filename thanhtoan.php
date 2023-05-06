@@ -12,7 +12,6 @@
     if(isset($_GET['orderid']) && $_GET['orderid']=='order'){
        $Idkhachhang = Session::get('customer_id');
        $insertOrder = $gh->dat_hang($Idkhachhang);
-       $insertOrder = $gh->dat_hangonline($Idkhachhang);
         $delCart = $gh->xoa_dulieu_giohang();
         echo "<script> window.location ='muahang_thanhcong.php'</script>";
     }
@@ -178,14 +177,8 @@
                     <div class="card-footer border-secondary bg-transparent">
                         <center>
                             <a  class="btn btn-primary px-3" style="border: groove;" href="?orderid=order">Order</a>
+                            <a  class="btn btn-primary px-3" style="border: groove;" href="thanhtoan_onl.php">Payment with VNPAY</a>
                         </center>
-                
-                    </div>
-                    <div class="card-footer border-secondary bg-transparent">
-                    <center>
-                    <input type="hidden" name="total_paymentgateways" value="<?php echo $gtotal ?>"></input>
-                    <button onclick="window.location='?orderid=order'" class="btn btn-primary px-3" style="border: groove;" name="redirect" id="redirect">Payment with VNPAY</button>
-                    </center>
                 
                     </div>
                 </div>
