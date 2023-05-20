@@ -106,12 +106,7 @@
 
 		    		 $alert = "<span class='success'>Large image file</span>";
 					return $alert;
-				    } 
-					elseif ($Giaban < 0) {
-
-						$alert = "<span class='success'>The price must be positive</span>";
-					   return $alert;
-					   } 
+				    }  
 					elseif (in_array($file_ext, $permited) === false) 
 					{	
 				    $alert = "<span class='success'>You can upload only:-".implode(', ', $permited)."</span>";
